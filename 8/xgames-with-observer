@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir -p Tmp
+java -jar mysterious-alligators.jar $1

@@ -1,0 +1,7 @@
+{
+  "host": "127.0.0.1",
+  "players": [["a","ldasg","a cheat","no-fit"],["bc","ldasg"], ["c", "ldasg", "take-turn", 1]],
+  "port": 50000,
+  "quiet": true,
+  "wait": 4
+}

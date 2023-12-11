@@ -1,0 +1,68 @@
+(testing /course/cs4500f23/ta/tedium-workdir/github/mysterious-alligators/9/xbaddies)
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/0-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/0-out.json)
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/4-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/4-out.json)
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/5-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/5-out.json)
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/6-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/6-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((0
+             (0 #hasheq((color . "yellow") (shape . "clover")))
+             (1 #hasheq((color . "purple") (shape . "clover"))))
+            (1
+             (0 #hasheq((color . "yellow") (shape . "circle")))
+             (1 #hasheq((color . "purple") (shape . "clover"))))
+            (2
+             (0 #hasheq((color . "blue") (shape . "circle")))
+             (1 #hasheq((color . "blue") (shape . "clover"))))))
+          (players
+           .
+           (#hasheq((name . "Andrew")
+                    (score . 15)
+                    (tile*
+                     .
+                     (#hasheq((color . "green") (shape . "star"))
+                      #hasheq((color . "green") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "yellow") (shape . "circle")))))
+            #hasheq((name . "Ben")
+                    (score . 2)
+                    (tile*
+                     .
+                     (#hasheq((color . "green") (shape . "square"))
+                      #hasheq((color . "red") (shape . "square"))
+                      #hasheq((color . "blue") (shape . "8star")))))
+            #hasheq((name . "Connor")
+                    (score . 28)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "yellow") (shape . "circle")))))
+            #hasheq((name . "Dave")
+                    (score . 5)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "8star"))
+                      #hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "star")))))))
+          (tile* . (#hasheq((color . "green") (shape . "star")))))
+  (("Andrew" "ldasg")
+   ("Ben" "ldasg")
+   ("Connor" "dag" "a cheat" "not-a-line")
+   ("Dave" "dag" "a cheat" "tile-not-owned")))
+(*** expected)
+'((("Andrew") ("Connor" "Dave")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ((("Andrew") ("Dave" "Connor")))))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/7-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/7-out.json)
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/8-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/8-out.json)
+((/course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/0-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/0-out.json) (/course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/4-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/4-out.json) (/course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/5-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/5-out.json) (/course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/7-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/7-out.json) (/course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/8-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/19/Tests/8-out.json))
+((passed 5) (total 6) (partial-score 5))
+

@@ -1,0 +1,9 @@
+{
+  "host": "127.0.0.1",
+  "players": [["a","ldasg","a cheat","bad-ask-for-tiles"],
+    ["bc","ldasg"],
+    ["c", "ldasg", "setup", 1]],
+  "port": 35000,
+  "quiet": true,
+  "wait": 3
+}

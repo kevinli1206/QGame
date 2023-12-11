@@ -1,0 +1,7 @@
+#!/bin/sh
+
+find . -name "*.java" -print | xargs javac -d target -cp "Q/lib/*"
+
+java -jar Q/lib/junit-platform-console-standalone-1.10.0.jar --class-path target --scan-class-path
+
+rm -rf target

@@ -1,0 +1,21 @@
+{
+  "port": 15000,
+  "quiet": true,
+  "ref-spec": {
+    "config-s": {
+      "fbo": 3,
+      "qbo": 7
+    },
+    "observe": false,
+    "per-turn": 3,
+    "quiet": true,
+    "state0": {"map":[[0,[0,{"color":"red","shape":"circle"}]]],
+      "players":[
+        {"name":"a","score":15,"tile*": [{"color":"purple","shape":"square"},{"color":"purple","shape":"square"}]},
+        {"name":"d","score":0,"tile*":[{"color":"purple","shape":"square"}]}],
+      "tile*":[{"color":"purple","shape":"diamond"}]}
+  },
+  "server-tries": 3,
+  "server-wait": 23,
+  "wait-for-signup": 2
+}

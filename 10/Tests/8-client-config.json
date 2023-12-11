@@ -1,0 +1,10 @@
+{
+  "host": "127.0.0.1",
+  "players": [["player1", "dag", "new-tiles", 2],
+    ["player2", "dag", "win", 1],
+    ["player3", "ldasg", "a cheat", "bad-ask-for-tiles"],
+    ["player4", "ldasg"]],
+  "port": 54321,
+  "quiet": true,
+  "wait": 4
+}
