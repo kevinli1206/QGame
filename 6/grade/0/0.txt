@@ -1,0 +1,10 @@
+THIS OUTPUT IS THE RESULT OF REVERSING THE ORDER OF THE JSON INPUTS
+
+(testing /course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/0-in.json /course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/0-out.json)
+(testing /course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/3-in.json /course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/3-out.json)
+(testing /course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/4-in.json /course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/4-out.json)
+
+(testing /course/cs4500f23/ta/tedium-workdir/github/stoic-eagles/6/xstrategy)
+((/course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/0-in.json /course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/0-out.json) (/course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/3-in.json /course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/3-out.json) (/course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/4-in.json /course/cs4500f23/ta/23SwDev/Code/6/./Flipping/Tmp16987896791698789679340/4-out.json))
+((passed 3) (total 3) (partial-score 3))
+

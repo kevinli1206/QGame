@@ -1,0 +1,21 @@
+{"map":
+[
+  [-100,
+    [100,{"color":"purple","shape":"square"}]],
+  [-99,
+    [100,{"color":"green","shape":"clover"}],
+    [99,{"color":"blue","shape":"diamond"}]]],
+  "tile*":
+          [{"color":"yellow","shape":"star"},
+            {"color":"red","shape":"8star"},
+            {"color":"purple","shape":"square"},
+            {"color":"red","shape":"circle"}],
+  "players":
+  [{"score":0,"tile*":[
+    {"color":"blue","shape":"square"},
+    {"color":"yellow","shape":"clover"}]},
+    {"score":10,"tile*":[
+      {"color":"red","shape":"clover"}]},
+    {"score":5,"tile*":[
+      {"color":"green","shape":"square"}]}]}
+[["player1", "dag"], ["player2", "dag"], ["player3", "ldasg", "setup"]]

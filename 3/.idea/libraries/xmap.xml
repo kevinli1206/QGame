@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="xmap">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Other/Artifacts/xmap.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
